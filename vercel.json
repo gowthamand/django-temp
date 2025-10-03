@@ -17,8 +17,8 @@
   ],
   "build": {
     "env": {
-      "PYTHON_VERSION": "3.11",
       "DJANGO_SETTINGS_MODULE": "core.settings",
+      "PYTHON_VERSION": "3.11"
     }
   }
 }
