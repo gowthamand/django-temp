@@ -1,14 +1,23 @@
 {
-    "builds": [
-      {
-        "src": "core/wsgi.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "core/wsgi.py"
-      }
-    ]
+  "builds": [
+    {
+      "src": "core/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "core/wsgi.py"
+    }
+  ],
+  "build": {
+    "env": {
+      "PYTHON_VERSION": "3.11"
+    }
   }
+}
