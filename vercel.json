@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "djangotutorial/wsgi.py",
+      "src": "versel_deploymet/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
@@ -21,7 +21,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "djangotutorial/wsgi.py"
+      "dest": "versel_deploymet/wsgi.py"
     }
   ],
   "outputDirectory": "ui/staticfiles"
