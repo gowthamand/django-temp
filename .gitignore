@@ -1,6 +1,13 @@
-__pycache__
-crud/__pycache__/
-mysite/__pycache__/
-.idea
-db.sqlite3
-staticfiles
+# Ignore the .env file
+.env
+
+# Ignore the venv-django folder
+venv-django/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore the Django static and media directories (if applicable)
+staticfiles/
+media/
