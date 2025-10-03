@@ -1,6 +1,15 @@
+.vercel
+*.log
+*.pyc
 __pycache__
-crud/__pycache__/
-mysite/__pycache__/
-.idea
 db.sqlite3
-staticfiles
+media
+
+# Environments 
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 

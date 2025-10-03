@@ -1,71 +1,65 @@
-#### Django CRUD
-#### Django Crud Github
-#### Django Crud Application Github
-#### Django ajax CRUD Github
-#### Django Boilerplate application Github
-#### Django Register Login fileupload Github
-#### Django Sample App Github
+---
 
-### Live demo <a target="_blank" href="https://gowtham-django-crud.herokuapp.com/">Click Here</a>
-##### username : gowthaman.nkl1@gmail.com , password : Welcome@123
+# Vercel Deployment for Django Project
 
-[:heart: Sponsor](https://github.com/sponsors/gowthamand)
+This is a sample repository demonstrating how to deploy a Django project on Vercel. By using Vercel, you can easily deploy your Django application and make it accessible on the web.
 
-#### Key Features
-- 1 . Register
-- 2 . Login
-- 3 . File Upload
-- 4 . Form Validation
-- 5 . CRUD Application
-- 6 . Ajax CRUD Application
-- 7 . File Upload
-- 8 . CSV Import
-- 9 . CSV Export
+## Prerequisites
 
-# Step for Set Up
+Before getting started, make sure you have the following:
+
+- A Django project ready for deployment.
+- A Vercel account. If you don't have one, you can sign up for free at [vercel.com](https://vercel.com/).
+
+## Deployment Steps
+
+To deploy your Django project on Vercel, follow these steps:
+
+1. Clone this repository to your local machine using the following command:
 
 
-``` 
- 1. git clone https://github.com/gowthamand/django-crud-ajax-login-register-fileupload
+`git clone https://github.com/YourUsername/vercel_deployment.git` 
 
- 2. Change settings.py MYSQL CONFIGURATIONS (name, user, password) [Make sure to install mysqlclient: pip install mysqlclient]
-
- 3.  cd django-crud-ajax-login-register-fileupload
-
- 4. pip3 install -r requirements.txt
-
- 5. python3 manage.py migrate
-
- 6. python3 manage.py makemigrations
-
- 7. python3 manage.py migrate
-
- 8. python3 manage.py runserver
-
- 9. Login to http://127.0.0.1:8000
-
- 10. python manage.py createsuperuser (enter username, email, password)
-
-```
-# Dont't Forgot Give star and fork
-
-## Screen Shots
-
-[![SB Admin Preview](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/blob/master/screen_shots/1.png)](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/)
-
-[![SB Admin Preview](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/blob/master/screen_shots/2.png)](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/)
-
-[![SB Admin Preview](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/blob/master/screen_shots/3.png)](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/)
-
-[![SB Admin Preview](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/blob/master/screen_shots/4.png)](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/)
-
-[![SB Admin Preview](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/blob/master/screen_shots/5.png)](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/)
-
-[![SB Admin Preview](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/blob/master/screen_shots/6.png)](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/)
-
-[![SB Admin Preview](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/blob/master/screen_shots/7.png)](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/)
-
-[![SB Admin Preview](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/blob/master/screen_shots/8.png)](https://github.com/gowthamand/django-crud-ajax-login-register-fileupload/)
+2. Navigate to the project's root directory:
 
 
-# Now Django Project Ready
+`cd vercel_deployment` 
+
+3. Install the required dependencies:
+
+
+`pip install -r requirements.txt` 
+
+4. Update the Vercel configuration file (`vercel.json`) with your project settings. Modify the `"buildCommand"` and `"outputDirectory"` according to your Django project structure.
+    
+5. Login to Vercel CLI by running the following command and following the prompts:
+    
+
+
+`vercel login` 
+
+6. Deploy your Django project by running the following command:
+
+
+`vercel` 
+
+7. Follow the instructions provided by Vercel CLI to configure your deployment settings, such as choosing a project name and deployment environment.
+    
+8. Once the deployment is complete, Vercel will provide you with a unique URL where your Django project is accessible.
+    
+
+## Badges
+
+You can use the following badges to showcase your Vercel deployment status:
+
+[![Vercel](https://vercelbadge.vercel.app/api/YourUsername/vercel_deployment)](https://vercel.com/YourUsername/vercel_deployment)
+
+Replace `NagiPragalathan` with your Vercel account username and `nagipragalathan` with the actual repository name.
+
+## Contributing
+
+Contributions to this sample repository are welcome! If you have any improvements or suggestions, feel free to submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://chat.openai.com/c/LICENSE) file for more information.
